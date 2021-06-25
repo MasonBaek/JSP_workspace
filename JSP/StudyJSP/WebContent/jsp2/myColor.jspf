@@ -1,0 +1,6 @@
+<%
+String col1 = "red"; 
+String col2 = "yellow";
+String col3 = "pink";
+String col4 = "orange";
+%>
