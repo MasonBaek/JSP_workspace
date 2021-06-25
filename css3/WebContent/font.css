@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {font-family: 'Nanum Gothic', sans-serif;}
+
+section {
+border: 3px solid #999;
+padding: 1em;}
+
+.fs01 {font-size: 16px;}
+.fs02 {font-size: 12px;}
+.fs03 {font-size: 20px;}
+
+.fs04, .fs05, .fs06 {
+/* A, B, C, ...  그룹선택자
+여러 선택자들을 한번에 같은 스타일로
+적용하기 
+(선택자의 종류는 무관함,서로 달라도 됨)*/	
+ color: red;}
+ 
+.fs04 {font-size: 1em;}
+.fs05 {font-size: 0.75em;}
+.fs06 {font-size: 1.25em;}
+
+.fs07, .fs08, .fs09 {
+ color: blue;}
+
+#sec01 {font-size: 12px;}
+
+.fs07 {font-size: 1rem;}
+.fs08 {font-size: 0.75rem;}
+.fs09 {font-size: 0.25rem;}
+
+
+.fw01 {font-weight: 100;}
+.fw02 {font-weight: 200;}
+.fw03 {font-weight: 300;}
+.fw04 {font-weight: 400;}
+.fw05 {font-weight: 500;}
+.fw06 {font-weight: 600;}
+.fw07 {font-weight: 700;}
+.fw08 {font-weight: 800;}
+.fw09 {font-weight: 900;}
+
+.orag {color: orange;}
+.fw10 {font-weight: bold;}
+
+.fw11>b {font-weight:normal;
+/* A>B 는 부모자식관계일 때의
+조건을 만족하면 적용됨
+(A의 바로 한단계 아래에 있는 B) */}
+
+.fw11 i {color: green;
+/* A B 는 조상자손관계일 때의 
+ 조건만 만족하면 적용됨
+  (A 아래, 안에 있는 B) */ }
+
+.pre {white-space: pre;
+/* 공백처리 - 그대로(pre태그처럼) */ }
+
+
+.fst01 {font-style: italic;}
+.fst02 {font-style: oblique;}
+.fst03>i {font-style: normal;}
+
+.fst04>em {font-style: normal;}
+
+
+.fm01 {
+font-family: "Helvetica", "Verdana", "Arial", sans-serif;}
+
+.fm02 {font-family: "Georgia", "Times New Roman", "Garamond", serif;}
+
+/* [fonts.googleapis.com]
+font-family: 'Black And White Picture', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+ */
+.fm05 {font-family: 'Black And White Picture', sans-serif;}
+
+section>h2 {background-color: #8ef;
+ color: #058; padding:0.5em;
+ font-family: 'Nanum Myeongjo', serif;}
+
+
+
+
+
+
+
+
+
+
+
+

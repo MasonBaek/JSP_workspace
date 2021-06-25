@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>background</title>
+<link href="back.css" rel="stylesheet">
+</head>
+<body>
+<h1>background 배경</h1>
+<ul id="text">
+ <li>background-color:색상; 배경색상</li>
+ <li>background-image:url("이미지경로");배경이미지
+  <ul> 
+   <li>background-repeat:반복 지정
+    <ol> 
+     <li>repeat 기본값. 양사방 반복</li> 
+     <li>repeat-x 가로로만 반복</li> 
+     <li>repeat-y 세로로만 반복</li> 
+     <li>no-repeat 반복 안함</li>
+    </ol>
+   </li>
+   <li>background-position: ; 위치 지정
+    <ol> 
+     <li>left/center/right  top/center/bottom 수평 수직순 조합 </li> 
+     <li>npx npx / n% n% / nem nem / ...  수평 수직순 지정</li>   
+    </ol>
+   </li>
+   <li>background-size: ; 크기 지정
+    <ol> 
+     <li>cover 영역을 그림 하나로 전체 다덮기
+      (그림이 잘려나갈수도..)</li>
+     <li>contain 그림 하나를 영역에 맞춰 덮기
+      (그림이 반복될 수 있음, 잘려나가지는 않음)
+     </li>
+     <li>npx npx / n% n% / nem nem / ...  
+            수평 수직순 지정</li>
+    </ol>
+   </li>
+   <li>background-attachment: ;스크롤 여부 지정
+    <ol>
+     <li>scroll 기본값. 배경이미지 스크롤 </li>
+     <li>fixed 배경이미지 </li>
+     <li></li>
+    </ol>
+   </li>
+  </ul>
+ </li>
+</ul>
+	<section id="sec01">
+	  <h2>background-attachement:scroll;</h2>
+	  
+	  <p class="sc">
+	  background-attachement:scroll;<br><br><br><br><br>
+	  background-attachement:scroll;<br><br><br><br><br>
+	  background-attachement:scroll;<br><br><br><br><br>
+	  background-attachement:scroll;<br><br><br><br><br>
+	  background-attachement:scroll;<br><br><br><br><br>
+	  </p>
+	</section>
+	<section id="sec02">
+	  <h2>background-attachement:fixed;</h2>
+	  
+	  <p class="fx">
+	  background-attachement:fixed;<br><br><br><br><br>
+	  background-attachement:fixed;<br><br><br><br><br>
+	  background-attachement:fixed;<br><br><br><br><br>
+	  background-attachement:fixed;<br><br><br><br><br>
+	  background-attachement:fixed;<br><br><br><br><br>
+	  </p>
+	</section>
+	<section id="sec03">
+	  <h2>background-attachement:local;</h2>
+	  
+	  <p class="lo">
+	  background-attachement:local;<br><br><br><br><br>
+	  background-attachement:local;<br><br><br><br><br>
+	  background-attachement:local;<br><br><br><br><br>
+	  background-attachement:local;<br><br><br><br><br>
+	  background-attachement:local;<br><br><br><br><br>
+	  </p>
+	</section>
+
+
+</body>
+</html>
+
+
+

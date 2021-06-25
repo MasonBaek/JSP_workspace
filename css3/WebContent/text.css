@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+h1 {background-color: #333;
+ color: #fff;
+ padding: 0.3em;
+ font-weight: 400;}
+ 
+ 
+ /* text-align: ; 수평 정렬 */
+ 
+#sec01>p {width:40%;
+background-color:#9ad; } 
+ 
+.ta01 {text-align: left;} 
+.ta02 {text-align: center;} 
+.ta03 {text-align: right;}
+
+#sec01 > table {width : 600px;
+height: 100px;}
+#sec01>table, #sec01 td {
+ border: 1px solid;}
+ 
+ .td_l {text-align: left;}
+ .td_c {text-align: center;}
+ .td_r {text-align: right;}
+ 
+ /* vertical-aligh */
+ .td_t {vertical-align: top;}
+ .td_m {vertical-align: middle;}
+ .td_b {vertical-align: bottom}
+ 
+ #div01 {background-color: #000;
+ color: #fff;
+ margin-top: 2em;
+ padding:1em;}
+ 
+ .in  {background-color: #4dd;
+ width:15em;
+ height:50px;
+ vertical-align: bottom;}
+ 
+ .b {background-color: #de5;
+ color: #005;}
+ 
+ /* text-decoration: ; 글자 줄 */
+ .tde01 {text-decoration: overline;}
+ .tde02 {text-decoration: line-through;}
+ .tde03 {text-decoration: underline;}
+ .tde04 {text-decoration: none;}
+ .tde05>a {text-decoration: none;}
+ .tde05>a:link {
+ color: #0a3;
+ }
+ .tde05>a:visited {
+ color: #fa9;
+ }
+ /* :link는 초기링크 상태일 때(방문하기 전).
+   :visited는 방문한  링크 상태일 때를 지정하는 상태선택자.  
+  hover와 active보다 먼저 기입할 것!   */	
+ .tde05>a:active {
+ color: #ff0;
+ }
+ .tde05>a:hover {
+ color: #0cc;
+ }
+ /* :hover 마우스 오버 상태일 때(a태그 이외에도 가능).
+   :active는  활성화 링크 상태일 때를 지정하는 상태선택자  */	
+ 
+ p>.span01 {
+ border: 3px dotted;
+ border-radius:25%;
+ padding:0.2em;
+ color : #f90;
+ font-weight: 900;
+ text-transform : uppercase;
+ font-size: 1.2em;
+ }
+ 
+p>.span02 {
+ text-decoration: line-through;
+ color: #333;
+ font-size: 0.7em;
+ font
+ }
+ p>b {background-color:#ff0;
+ color:#f00;
+ font-size: 1.5em;
+ }
+ 
+ /* text-transform:  ; 영문 대소문자 변경 */
+ .ttr01 {text-transform: none}
+ .ttr02 {text-transform: lowercase;}
+ .ttr03 {text-transform: uppercase;}
+ .ttr04 {text-transform: capitalize;}
+ 
+ /* text-indent:  ; 들여쓰기 */
+ #sec04>p {
+ border: 1px solid #5aa;}
+ .tin01 {text-indent: 16px }
+ .tin02 {text-indent: 3em;}
+ .tin03 {text-indent: 15%;}
+ .tin04 {text-indent: -50px;}
+ .tin04:hover {
+ text-indent: 0;}
+ .tin05 {text-indent: 20%;}
+ 
+ #sec05>p{
+ border: 1px solid #560; 
+ padding : 20px ;
+ font-size: 3em;
+ font-weight: blod;
+ text-align: center
+ }
+ 
+ .tsh01 {
+ text-shadow: 3px 5px 3px #333; }
+ 
+ .tsh02{
+ text-shadow: 5px 0 0 #3dd;
+ }
+ 
+ .tsh03{
+ text-shadow: 0 5px 0 #3dd; }
+ 
+ .tsh04{
+ text-shadow: 0 0 5px #3dd; }
+ 
+ .tsh05{
+ background-color : #7c0;
+ color : #7c0;
+ text-shadow: 4px 6px 6px #310;}
+
+ .tsh06{
+ background-color : #000;
+ color:#000;}
+ .tsh06:hover {
+ text-shadow: -1px -1px 10px #afc; }
+ 
+ .tsh07 {
+ text-shadow: -5px 0 3px #00a6ff;
+ }
+ .tsh07:hover {
+ text-shadow: 5px 0 3px #ff4d00;
+ transition : 1.8s;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 

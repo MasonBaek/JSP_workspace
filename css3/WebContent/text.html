@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>text-로 시작하는 글자 속성들</title>
+<link href="text.css" rel="stylesheet">
+</head>
+<body>
+<h1>text-로 시작하는 글자 속성들</h1> 
+ <ul>
+  <li>text-align:  ; 수평 정렬</li>
+  <li>text-decoration:  ; 글자의 여러 줄들</li>
+  <li>text-transform:  ; 영문 대소문자 변경</li>
+  <li>text-indent:  ; 들여쓰기</li>
+  <li>text-shadow:  ; 글자의 그림자 효과</li>
+ </ul>
+
+<section id="sec01">
+ <h2>text-align:  ; 수평 정렬</h2>
+
+ <p class="ta01">text-align:left; 수평 정렬</p>
+ <p class="ta02">text-align:center; 수평 정렬</p>
+ <p class="ta03">text-align:right; 수평 정렬</p>
+ <input type="text" value="text-align:left;">
+ <input type="text" value="text-align:center;" class="ta02">
+ <input type="text" value="text-align:right;" class="ta03">
+ <br>
+ * 자신(태그)의 영역 내에서 수평 ~~~~로 정렬 됨 <!-- 양끝 정렬로 부터 -->
+<hr>
+	<h3>table td에서 - text-aligh</h3>
+<table>
+ <tr>
+  <td class="td_l">left</td>
+  <td class="td_c">center</td>
+  <td class="td_r">right</td>
+ </tr>
+</table>
+<hr>
+	<h3>table td에서 - vertical-aligh</h3>
+<table>
+ <tr>
+  <td class="td_t"> top </td>
+  <td class="td_m"> middle </td>
+  <td class="td_b"> bottom </td>
+ </tr>
+</table>
+<div id="div01">
+vertical-align은 한 줄에 나란히 오는 요소끼리의 수직정렬을 지정함<br>
+(table의 칸에서만 예외)<br>
+ <input type="text" class="in" value="vertical-align: bottom">
+	<b class="b"> text </b>
+ </div>
+</section>
+<hr>
+<section id="sec02">
+	<h2> text-decoration: ; 글자의 여러 줄들 </h2>
+	<p class="tde01"> text-decoration: overline ; 글자 윗줄 </p>
+	<p class="tde02"> text-decoration: line-through ; 글자 중간줄(취소선) </p>
+	<p>
+	 <span class="span01"> sale</span>
+	 <span class="span02"> 29,000원</span><b>16,000원</b>
+	</p>
+	<p class="tde03"> text-decoration: underline; 글자 밑줄 </p>
+	<p class="tde04"> <a href="#">text-decoration:  ; 글자 줄 </a></p>
+	↑↑↑↑적용안됨 p태그가 a 태그에게 CSS 속성 상속안됨<br>
+	 .tde04 {text-decoration: none;}
+	<p class="tde05"> <a href="#">text-decoration:  ; 글자 줄 </a></p> 
+	↑↑↑↑적용 됨<br>
+	 .tde05>a {text-decoration: none;} a 태그에 직접 속성 부여 <br>
+	 <ul>
+	 <li>hover 마우스오버</li>
+	 <li>active 마우스클릭하는동안 바뀜</li>
+	 </ul>
+	 a:link a:visited => a:active a:hover<br>
+	 link , visited 설정해야지만 active, hover 설정후 동작됨
+</section>
+<hr>
+<section>
+	<h2> text-transform:  ; 영문 대소문자 변경 </h2>
+	<p class="ttr01">teXt-tRAnsfOrm: none ; </p>
+	<p class="ttr02">teXt-tRAnsfOrm: lowercase ; </p>
+	<p class="ttr03">teXt-tRAnsfOrm: uppercase ; </p>
+	<p class="ttr04">teXt-tRAnsfOrm: capitalize ; </p>
+</section>
+<hr>
+<section id="sec04">
+	<h2> text-indent:  ; 들여쓰기 </h2>
+	<p class="tin01"> text-indent: 16px ; </p>
+	<p class="tin02"> text-indent: 3em ; </p>
+	<p class="tin03"> text-indent: 15% ; </p>
+	<p class="tin04"> text-indent: -50px 음수도가능; </p>
+	<p class="tin05"> 
+	text-indent: 첫행만 들여쓰기 ;<br>
+	text-indent: 들여쓰기 안됨... 외않됨?
+	</p>
+</section>
+
+<section id="sec05">
+	<h2> text-shadow: ; 글자의 그림자 효과 </h2>
+	<p class="tsh01"> text-shadow: 3px 5px 3px #333 ; </p>
+	<br>			  text-shadow: X위치 Y위치 퍼짐 색상
+	<p class="tsh02"> text-shadow: 5px 0 0 #3dd; </p>
+	<p class="tsh03"> text-shadow: 0 5px 0 #3dd; </p>
+	<p class="tsh04"> text-shadow: 0 0 5px #3dd; </p>
+	<p class="tsh05"> text-shadow: CSS파일참조 </p>
+	<p class="tsh06"> text-shadow: CSS파일참조 </p>
+	<p class="tsh07"> text-shadow: 이중그림자 </p>
+.tsh07 { text-shadow: -5px 0 3px #00a6ff; }<br>
+.tsh07:hover { text-shadow: 5px 0 3px #ff4d00; transition : 1.8s;}
+</section>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

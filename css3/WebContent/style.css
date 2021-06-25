@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* 수업시간 공용 CSS */
+body {line-height:1.8;}
+/* 행간(줄간격) 단위없이 글자 높이의 ~배 */
+h1 {
+	border-left : 12px solid;
+	padding : 0.4em 10px;
+	background-color: #add;
+	color: #055;
+}
+section {
+	border : 3px dashed #333;
+	margin : 4em 1em;
+	padding : 1em;
+}
+section>h2 {
+	background-color: #ccc;
+	color: #555;
+}
+
