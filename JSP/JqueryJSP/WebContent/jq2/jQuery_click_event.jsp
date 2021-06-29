@@ -65,7 +65,7 @@
 
 </head>
 <body>
-   <h1>WebContent/jq2/Test1.jsp</h1>
+   <h1> jQuery_click_event_JSP </h1>
    
    <input type="button" value="클릭 이벤트" onclick=" alert('클릭js');">
    <input type="button" id="btn2" value="클릭 이벤트2" >
