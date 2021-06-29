@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <!-- string1.jsp -->
+   <!-- Asynchronous_1.jsp -->
    <%
-       System.out.println("string1.jsp 페이지 호출!");
+       System.out.println("Asynchronous_1!");
    %>
    
    
