@@ -40,7 +40,7 @@
 
 </head>
 <body>
-	<h1>WebContent/jq/test8.jsp</h1>
+	<h1> jQuery_each_JSP </h1>
 	
 <!-- 	<h2 class="high_0"> head-0 </h2>
 	<h2 class="high_1"> head-1 </h2>
