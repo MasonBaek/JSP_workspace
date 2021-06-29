@@ -47,7 +47,7 @@
 
 </head>
 <body>
-  <h1>WebContent/jq/test5.jsp</h1>
+  <h1 jQuery_html_text_JSP </h1>
   
   <h2>head-0</h2>
   <h2>head-1</h2>
