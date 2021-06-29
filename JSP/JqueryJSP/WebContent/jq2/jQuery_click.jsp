@@ -24,7 +24,6 @@
 	  });
 	  // $('a').click(false);
 		
-	  
 	  // h2 태그 클릭시 + 기호 추가
 	  $('h2').click(function(){
 		 $(this).html(function(idx,html){
@@ -42,8 +41,6 @@
     <h1><a href="http://www.naver.com">네이버 페이지</a></h1>
     
     <h2> 이벤트 시작/끝 </h2>
-    
-    
     
     
 </body>
