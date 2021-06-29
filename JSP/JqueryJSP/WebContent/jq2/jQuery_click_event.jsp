@@ -34,16 +34,13 @@
 		  
 	  });
 	  
-	  
 	 /*  에러   
 	 $(this).click(function(){
 		  // + 기호 추가 (text(),html())
 		  $(this).html(function(idx,ohtml){
 			  return ohtml+"+";
 		  });
-		  
 	  }); */
-	  
 	
 	$('img').attr('border',5);
 	  
@@ -61,9 +58,6 @@
 	}).mouseout(function(){
 		$(this).attr('src','1.jpg');
 	});
-	
-	  
-	  
 	  
   });
 
@@ -88,14 +82,6 @@
    
    <img src="1.jpg">
    <img src="2.jpg">
-   
-   
-   
-   
-   
-   
-   
-   
    
 </body>
 </html>
