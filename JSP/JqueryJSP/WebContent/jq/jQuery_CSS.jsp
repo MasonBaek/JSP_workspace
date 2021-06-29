@@ -58,7 +58,7 @@
 </head>
 <body>
 
-  <h1>WebContent/jq/test2.jsp</h1>
+  <h1> jQuery_CSS_JSP </h1>
   
   <h2 id="title1"> 제목 1 </h2>
   <h2 class="title2"> 제목 2 </h2>
