@@ -51,7 +51,7 @@
 </head>
 <body>
 
-	<h1>WebContent/jq/test3.jsp</h1>
+	<h1> jQuery_css_index_JSP </h1>
 	
 	<h2>head-0</h2>
 	<h2>head-1</h2>
