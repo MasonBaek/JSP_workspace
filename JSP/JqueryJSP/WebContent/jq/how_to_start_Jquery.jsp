@@ -26,9 +26,6 @@
 	   alert("제이쿼리 실행4! ");
    });
    
-   
-   
-   
 </script>
 
 <!-- <script type="text/javascript">
@@ -38,16 +35,7 @@
 
 </head>
 <body>
-    <h1>WebContent/jq/test1.jsp</h1>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <h1> how_to_start_Jquery.jsp </h1>
     
     
     
