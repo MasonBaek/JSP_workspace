@@ -66,7 +66,7 @@
 
 </head>
 <body>  
-    <h1>WebContent/jq/test6.jsp</h1>
+    <h1> jQuery_append_JSP </h1>
     
     1<br>
     2<br>
