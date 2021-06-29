@@ -50,7 +50,7 @@
 
 </head>
 <body>
-    <h1>WebContent/jq/test4.jsp</h1>
+    <h1> jQuery_set_attribute.jsp </h1>
     
     <img src="1.jpg">
     <img src="2.jpg">
