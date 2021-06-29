@@ -50,7 +50,7 @@
 
 </head>
 <body>
-   <h1>WebContent/jq2/Test3.jsp</h1>
+   <h1> text_count_to_limit.jsp </h1>
    
    <form action="" name="myfm" id="fr">
              아이디 : <input type="text" name="id" id="id"><br>
