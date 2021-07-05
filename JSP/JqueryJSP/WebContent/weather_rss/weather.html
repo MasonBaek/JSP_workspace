@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../js/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+//wearher.xml data 빼오기
+//가공은 아직 힘들다...
+	$(document).ready(function(){
+		var date = new Date();
+		$.ajax('weather.xml',{
+			success: function(data){
+				$(data).find('data').each(function(){
+					var weather = $(this).find('wfKor').text();
+					var hour = $(this).find('hour').text();
+					var wd = $(this).find('wdKor').text();
+					
+					$('body').append(hour+"시 날씨 : "+weather+" // 바람 : "+wd+"<hr>");
+				});
+			}
+		});	
+		
+		
+	});
+</script>
+</head>
+<body>
+
+</body>
+</html>
